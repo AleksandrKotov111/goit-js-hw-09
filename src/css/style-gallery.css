@@ -1,0 +1,35 @@
+
+*
+li,
+ul,
+a,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+}
+
+.container {
+    margin: 10px auto;
+    max-width: 1400px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.gallery-image {
+    max-width: 340px;
+}
