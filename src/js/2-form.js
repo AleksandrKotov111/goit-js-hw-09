@@ -20,7 +20,8 @@ form.addEventListener('input', event => {
 });
 
 form.addEventListener('submit', event => {
-    ev.preventDefault();
+    event.preventDefault();
+    
     const email = event.target.email.value;
     const message = event.target.message.value;
     if (email === '' || message === '') {
